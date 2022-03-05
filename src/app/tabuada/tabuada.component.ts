@@ -12,7 +12,7 @@ export class TabuadaComponent implements OnInit {
   tabuadaCinco() {
     let tabuada = [];
 
-    for (var i = 0; i < 10; i++) {
+    for (var i = 0; i < 11; i++) {
       tabuada.push(5 * i);
     }
 
