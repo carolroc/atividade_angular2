@@ -1,4 +1,9 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<h1>meu app</h1>
+
+<a [routerLink]="['/']">HOME</a> |
+<!-- coloca angular no lugar do link, vai ser a pasta -->
+<a [routerLink]="['/sobre']">SOBRE</a> |
+<a [routerLink]="['/tabuada']">TABUADA</a>
+
+<hr />
+<router-outlet></router-outlet>
